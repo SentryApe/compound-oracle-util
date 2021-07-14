@@ -19,4 +19,4 @@ It will be updated as tokens are added to Compound.
 
 ## update_prices.js
 
-A sample program for accessing the prices and printing them to console. Using the same pattern one could save it to a file or to a database as well.
+A sample program for accessing the prices and printing them to console. Using the same pattern one could save it to a file or to a database.

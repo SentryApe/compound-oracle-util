@@ -2,13 +2,10 @@ var TokenPrices = require('./prices');
 
 const priceloop = async () => {
   var saves = [];
-  //var progress = 0;
-  //var step = 100/TokenPrices.symbols.length;
+
   for (const sym of TokenPrices.symbols) {
     let x = await TokenPrices[sym.toLowerCase()]()
     saves.push({ [sym] : x});
-    //progress = progress + step;
-    //console.log(sym, x, progress);
    };
    return saves
 }
