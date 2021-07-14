@@ -17,7 +17,7 @@ const updatePriceJob = async () => {
   await console.log(saves);
   return "Price Job Done";
 } catch (err) {
-    console.log(err)
+    console.log(err);
     process.exit(1);
   }
 };
